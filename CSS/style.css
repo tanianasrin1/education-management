@@ -162,6 +162,12 @@ body{
     border: none;
     margin-top: 68px;
 }
+
+.apply-btn:hover{
+    color: #FA5E01;
+    border: 1px solid #FA5E01;;
+    background-color: white ;
+}
 .bannar-container{
     display: flex;
     gap: 150px;
