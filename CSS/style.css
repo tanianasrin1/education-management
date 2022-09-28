@@ -117,11 +117,10 @@ body{
 .banner-img {
     min-height: 100vh;
     width: 100%;
-    background-image:  url("/Asset/Rectangle\ 1.png");
-    opacity: 0.8;
+    background:  url(/Asset/Rectangle\ 1.png);
     background-position: center;
     background-size: cover;
-    /* position: relative; */
+    
   }
 
   .banner-container-area{
