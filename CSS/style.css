@@ -253,6 +253,9 @@ body{
     display: flex;
     padding: 281px;
 }
+.wise-img{
+  width: 30%;
+}
 .wise-text{
     font-style: italic;
     font-weight: 400;
