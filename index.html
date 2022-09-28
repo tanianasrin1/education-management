@@ -9,11 +9,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/3218fefc2e.js" crossorigin="anonymous"></script>
     <!-- stylesheet -->
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-        <h1 class="color">This is </h1>
+    <main>
+        
+<section>
+      <nav>
+        <a href="#"
+          ><img
+            src="/Asset/logo.png"
+            alt="education-logo"
+        /></a>
+        <div id="navLinks" class="nav_links">
+          <i class="fas fa-times close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li><a href="#">ABOUT</a></li>
+
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+     
+    </section>
+    </main>
 
 
 
@@ -24,5 +50,16 @@
 
         <!-- javaScript -->
     <script src="/JS/app.js"></script>
+
+    <!-- javascript -->
+    <!-- <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+        function hideMenu() {
+          navLinks.style.right = "-100vw";
+        }
+      </script> -->
 </body>
 </html>
