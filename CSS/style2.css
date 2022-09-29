@@ -244,6 +244,184 @@ margin-bottom: 40px;
     justify-content: space-between;
     align-items: center;
 }
+
+/* ***************************************
+                              Our Teacher
+                        ******************************/
+.our_teacher_container{
+  width: 80%;
+  margin: 70px auto;
+}
+.teacher_heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.teacher_heading h1{
+
+  font-size: 30px;
+}
+.arrow_buttons{
+  display: flex;
+}
+.arrow_buttons .button_one{
+  width: 82px;
+  height: 82px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 1px solid #E3E2E1;
+  margin-bottom: 30px;
+}
+/* card */
+.teacher_cards{
+  display: grid;
+  grid-template-columns: repeat(3 ,  1fr);
+  gap: 30px;
+
+}
+.teacher_card img{
+  width: 100%;
+  height: auto;
+}
+.teacher_card h3{
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.teacher_card  p{
+  
+font-family: 'Open Sans';
+
+font-weight: 400;
+font-size: 18px;
+
+
+
+color: #41403F;
+}
+.card-conatent-position{
+  position: relative;
+  z-index: 1;
+}
+.teacher_card_icons{
+  
+  z-index: 11;
+  position: relative;
+  top: -120px;
+  left: 30px;
+  gap: 20px;
+}
+.teacher_card_icons span{
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+.teacher_button button{
+  margin: 50px 0;
+  width: 100%;
+  background: #FFF9F5;
+  border: none;
+  text-transform: uppercase;
+  color: #f36b3b;
+  font-size: 24px;
+  padding: 20px 0;
+}
+.teacher_button button:hover{
+  background: #FA5E01;
+  color: white;
+transition: .5s;
+}
+/* ***************************************
+                              Our Teacher
+                        ******************************/
+                        .our_teacher_container{
+                          width: 80%;
+                          margin: 70px auto;
+                        }
+                        .teacher_heading{
+                          display: flex;
+                          align-items: center;
+                          justify-content: space-between;
+                        }
+                        .teacher_heading h1{
+                        
+                          font-size: 30px;
+                        }
+                        .arrow_buttons{
+                          display: flex;
+                        }
+                        .arrow_buttons .button_one{
+                          width: 82px;
+                          height: 82px;
+                          text-align: center;
+                          display: flex;
+                          justify-content: center;
+                          background: #FFFFFF;
+                          border: 1px solid #E3E2E1;
+                          margin-bottom: 30px;
+                        }
+                        /* card */
+                        .teacher_cards{
+                          display: grid;
+                          grid-template-columns: repeat(3 ,  1fr);
+                          gap: 30px;
+                        
+                        }
+                        .teacher_card img{
+                          width: 100%;
+                          height: auto;
+                        }
+                        .teacher_card h3{
+                          margin: 20px 0;
+                          font-size: 20px;
+                          font-weight: bold;
+                        }
+                        .teacher_card  p{
+                          
+                        font-family: 'Open Sans';
+                        
+                        font-weight: 400;
+                        font-size: 18px;
+                        
+                        
+                        
+                        color: #41403F;
+                        }
+                        .card-conatent-position{
+                          position: relative;
+                          z-index: 1;
+                        }
+                        .teacher_card_icons{
+                          
+                          z-index: 11;
+                          position: relative;
+                          top: -120px;
+                          left: 30px;
+                          gap: 20px;
+                        }
+                        .teacher_card_icons span{
+                          margin-left: 10px;
+                          font-size: 20px;
+                          color: white;
+                        }
+                        .teacher_button button{
+                          margin: 50px 0;
+                          width: 100%;
+                          background: #FFF9F5;
+                          border: none;
+                          text-transform: uppercase;
+                          color: #f36b3b;
+                          font-size: 24px;
+                          padding: 20px 0;
+                        }
+                        .teacher_button button:hover{
+                          background: #FA5E01;
+                          color: white;
+                        transition: .5s;
+                        }
+
 /*  media query for medium devices*/
 @media only screen and (max-width: 1100px) {
     /* education */
@@ -276,6 +454,22 @@ margin-bottom: 40px;
     justify-content: space-between;
     align-items: center;
 }
+/* ***************************************
+                              Our Teacher
+                        ******************************/
+                        .teacher_heading{
+                        
+                          display: flex;
+                          flex-direction: column;
+                          margin: 20px 0;
+                          }
+                          /* card */
+  .teacher_cards{
+    display: grid;
+    grid-template-columns: repeat(1 ,  1fr);
+    gap: 30px;
+  
+  }
 /* about school */
   .school_area{
    
@@ -442,11 +636,11 @@ margin-bottom: 40px;
     background-color: #FA5E01;
 }
 .footer-text{
+    line-height: 28px;
+    color:  #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
-    color:  #FFFFFF
 }
 .text-plot{
     color: #FFFFFF;
@@ -458,16 +652,26 @@ margin-bottom: 40px;
 }
 .apply-items{
     color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 199px;
+    /* margin-left: 210px; */
 }
 .footer-flex{
   display: flex;
 }
 
 .icon-style{
-  margin-top: 24px;
+  /* margin-top: 24px; */
   
 }
 .footer-copyRight{
-  margin-top: 48px;
+  /* margin-top: 48px;
+  font-size: 22px; */
 
+}
+.Follow-text{
+  /* font-weight: 700;
+  font-size: 30px; */
 }
