@@ -370,20 +370,23 @@ margin-bottom: 40px;
     font-size: 26px;
     line-height: 36px;
     font-family: "Times New Roman", Times, serif;
+    margin-top: 70px;
   }
   .wise-text-style {
-    /* width: 50%; */
+    margin-left: 148px;
   }
   .wise-principle-style {
     color: #fa5e01;
   }
   .jonathon-style {
     color: #25201d;
+    margin-top: 50px;
   }
   .wise-from {
     position: relative;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 50px;
+
   
     /* margin-bottom: 138px; */
   }
@@ -458,4 +461,13 @@ margin-bottom: 40px;
 }
 .footer-flex{
   display: flex;
+}
+
+.icon-style{
+  margin-top: 24px;
+  
+}
+.footer-copyRight{
+  margin-top: 48px;
+
 }
