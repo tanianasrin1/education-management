@@ -13,14 +13,15 @@ valueDisplay.forEach(valueDisplay =>{
    },duration)
 } )
 
+// slider
+
 let slideIndex = 1;
+let myTimeOut ;
 showSlides(slideIndex);
 
 
 // Thumbnail image controls
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+
 
 function showSlides() {
     let i;
@@ -37,6 +38,12 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 
-    setTimeout(showSlides, 3000);
+    myTimeOut = setTimeout(showSlides, 8000);
     slideIndex++
+}
+
+function currentSlide(n) {
+  clearTimeout(myTimeOut);
+  slideIndex = n;
+  showSlides();
 }
