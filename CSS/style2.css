@@ -456,3 +456,6 @@ margin-bottom: 40px;
 .apply-items{
     color: #FFFFFF;
 }
+.footer-flex{
+  display: flex;
+}
