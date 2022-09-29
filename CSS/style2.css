@@ -593,7 +593,7 @@ grid-template-columns: repeat(3, 1fr);
 
 /* wise-words */
 .container {
-    max-width: 1360px;
+    max-width: 1300px;
     margin:0 auto;
 }
 .wise-flex {
@@ -624,7 +624,7 @@ grid-template-columns: repeat(3, 1fr);
     font-size: 26px;
     line-height: 36px;
     font-family: "Times New Roman", Times, serif;
-    margin-top: 39px;
+    margin-top: 14px;
   }
   .wise-text-style {
     margin-left: 148px;
