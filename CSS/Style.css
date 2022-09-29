@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.slides {
+    display: none;
+}
+
+.controls {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: rgb(143, 143, 143);
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #ffffff;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
