@@ -546,17 +546,32 @@ grid-template-columns: repeat(3, 1fr);
     font-size: 26px;
     line-height: 36px;
     font-family: "Times New Roman", Times, serif;
-    margin-top: 14px;
+   
   }
   .wise-text-style {
     margin-left: 148px;
+    margin-top: 45px;
   }
   .wise-principle-style {
     color: #fa5e01;
   }
+  .wise-div-flex{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .wise-text-p{
+    margin-left: 30px;
+  }
+  .wise-div{
+    width: 70px;
+    height: 0px;
+    border: 1px solid #25201D;
+
+  }
   .jonathon-style {
     color: #25201d;
-    margin-top: 50px;
+    /* margin-top: 5px; */
   }
   .wise-from {
     position: relative;
