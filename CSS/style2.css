@@ -22,6 +22,10 @@ nav {
     height: 51px;
     object-fit: cover;
   }
+  .nav-active {
+    color: #FA5E01 !important;
+  }
+  
   .nav_links {
     flex: 1;
     text-align: center;
@@ -42,7 +46,7 @@ nav {
     content: "";
     width: 0%;
     height: 2px;
-    background-color: #f36b3b;
+    background-color: #FA5E01;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -56,7 +60,7 @@ nav {
 .banner-img {
     height: 100vh;
     width: 100%;
-    background:  url(/Asset/Rectangle\ 1.png);
+    background:  url(/Asset/background.png);
     background-position: center;
     background-size: cover;
     
@@ -111,11 +115,12 @@ nav {
     padding: 10px 25px;
     border: none;
     margin-top: 68px;
+    cursor: pointer;
+    border: 1px solid #FA5E01;
 }
 
 .apply-btn:hover{
     color: #FA5E01;
-    border: 1px solid #FA5E01;;
     background-color: white ;
 }
 .bannar-container{
@@ -213,6 +218,7 @@ margin-bottom: 40px;
     border: 1px solid #FA5E01;
     background: white;
     color: #FA5E01;
+    cursor: pointer;
 }
 .school-btn:hover{
     padding:10px 30px ;
@@ -278,7 +284,9 @@ margin-bottom: 40px;
 .teacher_cards{
   display: grid;
   grid-template-columns: repeat(3 ,  1fr);
+  
   gap: 30px;
+
 
 }
 .teacher_card img{
@@ -327,100 +335,14 @@ color: #41403F;
   color: #f36b3b;
   font-size: 24px;
   padding: 20px 0;
+  cursor: pointer;
 }
 .teacher_button button:hover{
   background: #FA5E01;
   color: white;
 transition: .5s;
 }
-/* ***************************************
-                              Our Teacher
-                        ******************************/
-                        .our_teacher_container{
-                          width: 80%;
-                          margin: 70px auto;
-                        }
-                        .teacher_heading{
-                          display: flex;
-                          align-items: center;
-                          justify-content: space-between;
-                        }
-                        .teacher_heading h1{
-                        
-                          font-size: 30px;
-                        }
-                        .arrow_buttons{
-                          display: flex;
-                        }
-                        .arrow_buttons .button_one{
-                          width: 82px;
-                          height: 82px;
-                          text-align: center;
-                          display: flex;
-                          justify-content: center;
-                          background: #FFFFFF;
-                          border: 1px solid #E3E2E1;
-                          margin-bottom: 30px;
-                        }
-                        /* card */
-                        .teacher_cards{
-                          display: grid;
-                          grid-template-columns: repeat(3 ,  1fr);
-                          gap: 30px;
-                        
-                        }
-                        .teacher_card img{
-                          width: 100%;
-                          height: auto;
-                        }
-                        .teacher_card h3{
-                          margin: 20px 0;
-                          font-size: 20px;
-                          font-weight: bold;
-                        }
-                        .teacher_card  p{
-                          
-                        font-family: 'Open Sans';
-                        
-                        font-weight: 400;
-                        font-size: 18px;
-                        
-                        
-                        
-                        color: #41403F;
-                        }
-                        .card-conatent-position{
-                          position: relative;
-                          z-index: 1;
-                        }
-                        .teacher_card_icons{
-                          
-                          z-index: 11;
-                          position: relative;
-                          top: -120px;
-                          left: 30px;
-                          gap: 20px;
-                        }
-                        .teacher_card_icons span{
-                          margin-left: 10px;
-                          font-size: 20px;
-                          color: white;
-                        }
-                        .teacher_button button{
-                          margin: 50px 0;
-                          width: 100%;
-                          background: #FFF9F5;
-                          border: none;
-                          text-transform: uppercase;
-                          color: #f36b3b;
-                          font-size: 24px;
-                          padding: 20px 0;
-                        }
-                        .teacher_button button:hover{
-                          background: #FA5E01;
-                          color: white;
-                        transition: .5s;
-                        }
+
 
 /*  media query for medium devices*/
 @media only screen and (max-width: 1100px) {
@@ -677,6 +599,7 @@ grid-template-columns: repeat(3, 1fr);
     background-color: white ;
     padding: 10px 25px;
     margin-top: 40px;
+    cursor: pointer;
 }
 .apply-btn2:hover{
     background-color: #FA5E01;
